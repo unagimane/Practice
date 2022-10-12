@@ -1,0 +1,112 @@
+h1 {
+    border: solid 3px salmon;
+    background-color: orange;
+    text-align: center;
+}
+
+#container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    grid-gap: 10px;
+}
+
+#box:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+.one {
+    border: solid 3px salmon;
+    background-color: orange;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.two {
+    border: solid 3px salmon;
+    background-color: orange;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.three {
+    border: solid 3px salmon;
+    background-color: orange;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 10;
+}
+
+.four {
+    border: solid 3px salmon;
+    background-color: orange;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+
+.five {
+    border: solid 3px salmon;
+    background-color: orange;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 10;
+}
+
+.six {
+    border: solid 3px salmon;
+    background-color: orange;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 10;
+    grid-row-end: 20;
+}
+
+.seven {
+    border: solid 3px salmon;
+    background-color: orange;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 10;
+    grid-row-end: 15;
+}
+
+.eight {
+    border: solid 3px salmon;
+    background-color: orange;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 15;
+    grid-row-end: 20;
+}
+
+.nine {
+    border: solid 3px salmon;
+    background-color: orange;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 10;
+    grid-row-end: 15;
+}
+
+.ten {
+    border: solid 3px salmon;
+    background-color: orange;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 15;
+    grid-row-end: 20;
+}
+
+
+
+
